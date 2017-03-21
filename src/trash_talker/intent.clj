@@ -14,7 +14,7 @@
              "flushing it.")
 
       2 (str "As Crash from Bull Durham would say," subject " couldn't "
-             "hit water if " subject " fell out of a boat".)
+             "hit water if " subject " fell out of a boat")
 
       3 (str "As Muhammad Ali would say, " subject " is going to get "
              "beat so bad they will need a shoehorn to put their hat on.")
