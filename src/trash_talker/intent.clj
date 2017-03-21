@@ -4,14 +4,17 @@
 
 (defn talk-trash [subject]
   (println subject)
-  (let [rand (rand-int 12)]
+  (let [rand (rand-int 14)]
     (case rand
       0 (str "As Bryce Harper would say, I’m not answering that. "
              "That’s a clown question, bro.")
 
-      1 (str subject " couldn't beat the school of the blind.")
+      1 (str "As Buddy from Swimming with Sharks would say, " subject " is "
+             "nothing! If " subject " were in my toilet I wouldn't bother "
+             "flushing it.")
 
-      2 (str "Aside from " subject " being ugly. " subject " is pretty good.")
+      2 (str "As Crash from Bull Durham would say," subject " couldn't "
+             "hit water if " subject " fell out of a boat".)
 
       3 (str "As Muhammad Ali would say, " subject " is going to get "
              "beat so bad they will need a shoehorn to put their hat on.")
@@ -41,7 +44,16 @@
 
       11 (str "As Dwayne The Rock Johnson would say, " subject
               " looks like a big monkey came down here, took a crap, "
-              "and out came " subject "!"))))
+              "and out came " subject "!")
+
+      12 (str "As Buzz Light Year from Toy Story would say, " subject
+              " is a sad strang little " subject ", and you have "
+              "my pity.")
+
+      13 (str "As said in Billy Madison, watching " subject " is one of the "
+              "most insanely idiotic things anyone has have ever seen. "
+              "Everyone in this room is now dumber for having watched it. "
+              "May God have mercy on our soul."))))
 
 
 (defn intent-request [{:keys [intent]}]
